@@ -1,0 +1,143 @@
+ /* style for footer*/
+  .footer {
+    grid-area: footer;
+    background-color: skyblue;
+    border-radius:4px;
+      margin-left: 14px;
+      margin-right: 14px;
+      margin-top: 100px;
+      height: 50px;
+  }
+  .left{
+    text-align:left;
+    float:left;
+    }
+    .right{
+    float:right;
+    text-align:right;
+    }
+    .centered{
+    text-align:center;
+    margin-top: 2%;
+    }
+
+    /* style for nav bar */
+   nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:  skyblue;
+        margin-right: 14px;
+        margin-left: 14px;
+        margin-top: 10px;
+        border-radius: 4px;
+      }
+      
+    nav li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+
+
+
+  /* style for main page */
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  /* Style the side navigation */
+
+  .column {
+    float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .front{
+width: 35%;
+height: 25%;
+margin-left: 50px;
+  }
+  
+  .back{
+    height: 50%; 
+    width: 50%;
+    margin-top: 10px;
+    border-radius:4px;
+    margin-left: 14px;
+    margin-bottom: 10px;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://images.pexels.com/photos/212236/pexels-photo-212236.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  }
+
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  h2{
+    text-align: center; 
+  }
+
+  /* style button  for delete*/
+  .delete{
+    background-color: skyblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  /* style button for edit */
+  .edit{
+    background-color: skyblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    margin-top: 20px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  /* style for hr */
+
+  hr{
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 50px;
+  }
