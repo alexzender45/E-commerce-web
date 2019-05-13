@@ -1,0 +1,69 @@
+<!DOCTYPE html lang="en">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+<title>Makeyou</title>
+<link rel = 'stylesheet' href = "add.css">
+</head>
+<body>
+    <header>
+    </header>
+     
+ <nav>
+    <ul>
+        <li><a href="../../landing-page/landing.html">Home</a></li>
+        <li><a href="../add item/add.html">Add Item</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li style="float:right"><a href="../sign up-page/signup.html">Sign Up</a></li>
+        <li style="float:right"><a href="../login-page/login.html">Log In</a></li>
+</ul>
+ </nav>
+ <main>
+     <div class = "container">
+         <h2>Add an Item to the Store</h2>
+              <form action="../../landing-page/landing.html">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">Item Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="f" name="itemname" placeholder="Name of item..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Item Image</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="itemimage" placeholder="Add image of item..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Item price</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="item price" placeholder="price of item..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Item Description</label>
+                </div>
+                <div class="col-75">
+                  <textarea type="text" id="lname" name="describeitem" placeholder="Describe your item..">
+                      </textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" onclick = "addItem()" value="Add Item">
+              </div>
+              </form>
+            </div>   
+     </main>
+     <script src = "add.js"></script>
+     </body>
+     </html>
+     
