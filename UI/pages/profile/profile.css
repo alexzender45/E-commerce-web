@@ -1,0 +1,179 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* style for nav bar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  skyblue;
+    margin-right: 14px;
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  
+nav li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  /* style for column two */
+
+  .some-page-wrapper {
+    margin: 15px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+   /* style for blue div */
+  .blue-column {
+    height: 100px;
+    width: 40%;
+  }
+  .blue-column img{
+      height: auto;
+      max-width: 100%;
+      border-radius: 150px;
+      background-color: deeppink;
+      background-size: cover;
+  }
+  .aside{
+    background-color: deeppink;
+    text-align: center;
+  }
+  
+  .green-column {
+    height: 100px;
+    width: 75%;
+  }
+
+
+
+  /* style for inner column */
+  .some-page {
+    margin: 5px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+  .yello-column {
+    background-color: blue;
+    height: 100px;
+  }
+  
+  .organge-column {
+    background-color: green;
+    height: 100px;
+  }
+  
+  /* style for aside1 */
+
+ .aside1 img{
+height: auto;
+max-width: 50%;
+  }
+
+  /* style for button */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  /* style button for edit */
+  .edit{
+    background-color: deeppink;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 0%;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+   /* style button for delete */
+   .delete{
+    background-color: deeppink;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+   }
+
+   /* style for hr */
+
+   hr{
+       height: 5%;
+       background-color: deeppink;
+   }
+
+   /* style for footer */
+   /* footer */
+/* footer */
+.footer {
+    position: relative;
+    background-color:black;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 14px;
+    margin-left: 14px;
+  
+  }
+  .copy{
+    margin-left: 90%;
+    margin-top: -2.5%;
+  }
+  
+  .footer a{
+    margin-left: 5%;
+    margin-top: 2%;
+    text-decoration: none;
+    color: white;
+  }
