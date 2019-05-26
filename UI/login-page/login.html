@@ -20,19 +20,23 @@
         </ul>
         </nav>
  <main>
+        <div id = "error">
+
+        </div>
      <div class = "login">
          <h2>Log In</h2>
-         <form>
-             <input type = "text" name = "username" placeholder = "username or email" required>
-             <input type = "text" name = "password" placeholder = "password" required>
+         <form id = "form1" method="POST">
+             <input type = "text" name = "username" id = "username" placeholder = "username or email" required>
+             <input type = "text" name = "password" id = "password" placeholder = "password" required>
             <a href = "#"> Forgot password?</a>
             <br>
-             <input type = "submit" value = "Log In" id = "btn">
+             <input type = "submit" value = "Log In" id = "btn" onclick ="practice(); return false">
              <br>
              <hr>
              <a id = "tag" href = "#">Don't have an account? Sign Up</a>
          </form>
      </div>
  </main>
+ <script src = "login.js"></script>
   </body>
 </html>

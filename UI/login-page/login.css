@@ -31,6 +31,12 @@ input[type=text], select {
       width: 42%;
       margin : 0 auto;
   }
+  #error{
+    padding-top: 5%;
+      width: 42%;
+      margin-left: 40%;
+      color: red;
+  }
 h2{
     margin : 0 auto; 
     padding-left: 42%;
