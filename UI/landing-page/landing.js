@@ -1,4 +1,4 @@
-//import {practice} from '../login-page/login.js';
+
 
  const cards = document.querySelectorAll(".container .card");
  const img  = document.querySelectorAll(".container img");
@@ -108,7 +108,7 @@ head.addEventListener('mouseout', () =>{
     head.style.backgroundColor = "skyblue";
 })
 
-// nav
+// for navbar
 
 nav.addEventListener('mouseover', () =>{
     nav.style.backgroundColor = "deeppink";

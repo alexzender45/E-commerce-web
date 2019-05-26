@@ -89,6 +89,10 @@ body {
 .some-page-wrapper img{
   max-width: 100%;
   height: auto;
+
+}
+.some-page-wrapper img:hover img.man{
+  background-color: red;
 }
 
 /* style for num */
@@ -202,13 +206,13 @@ height: 300px; /* Should be removed. Only for demonstration */
 
 
 /* style for yoursearch */
-.container .row h1{
+.container1 .row h1{
   color: white;
   height: 25%;
   text-align: center;
 }
 
-.container {
+.container1 {
   margin-top: 5%;
   background-color: black;
   height: 25%;
@@ -320,22 +324,37 @@ border: 1px solid;
   margin-top: -2.5%;
 }
 
-.footer a{
-  margin-left: 5%;
-  margin-top: 2%;
-  text-decoration: none;
-  color: white;
-}
 
+  .footer {
+    position: relative;
+    background-color:black;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 14px;
+    margin-left: 14px;
+  
+  }
+  .copy{
+    margin-left: 90%;
+    margin-top: -2.5%;
+  }
+  
+  .footer a{
+    margin-left: 0%;
+    margin-top: 2%;
+    text-decoration: none;
+    color: white;
+  }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  .grid-container  {
-    grid-template-areas: 
-      'header header header header header header' 
-      'left left left left left left' 
-      'middle middle middle middle middle middle' 
-      'right right right right right right' 
-      'footer footer footer footer footer footer';
+@media (max-width: 455px) {
+  .container{
+    width: 100%;  
   }
+  .container .row {
+    height: 100%;
+    width: 50%;
+  }
+  
 }
