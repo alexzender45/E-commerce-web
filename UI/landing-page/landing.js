@@ -2,4 +2,4 @@ const check = document.querySelector("some-page-wrapper.img").onclick = function
     console.log("hfghfggf")
 }
 
-console.log("hfghfggf")
+console.log("hfghfggf");
